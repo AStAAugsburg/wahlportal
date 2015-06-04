@@ -1,0 +1,80 @@
+body {
+    padding-top: 60px;
+    font-size:18px;
+    line-height:24px;
+}
+li {
+    line-height:24px;
+}
+.row {
+    margin-top:25px;
+}
+#titel {
+    height:110px;
+}
+#titel h1 {
+    font-size:2.5em;
+    position:relative;
+    top:35px;
+    text-align:center;
+}
+#ankreuzen {
+    background: url('../img/wahl.png');
+    height:276px;
+}
+#ankreuzen-teaser {
+    text-align:right;
+    color:white;
+}
+#akt-dom {
+    position:relative;
+    top:140px;
+    right:15px;
+    font-size:2.5em;
+    font-weight:bold;
+}
+#akt-sub {
+    position:relative;
+    top:155px;
+    right:15px;
+    font-size:1.5em;
+    line-height:1.3em;
+}
+#warnung p {
+    font-size:1.2em;
+    line-height:1.4em;
+}
+#impressum .span4 {
+    background-color:#8caaca;
+    color:#ECECEC;
+    font-size:0.7em;
+    line-height:1.2em;
+    height:12em;
+}
+#impressum .span4 h2, #impressum .span4 p {
+    margin-left:10px;
+}
+#impressum h2 {
+    font-weight:bold;
+    color:white;
+}
+table.ergebnis {
+    width:50%;
+    float:left;
+}
+.ergebnis td {
+    border-bottom:1px dotted black;
+}
+.ergebnis th {
+    text-align:left;
+    border-bottom:1px solid black;
+}
+#einzel_e table {
+    width:80%;
+}
+.gewaehlt {
+    font-weight:bold;
+}
+.fakrat {
+    color:red;
+}
